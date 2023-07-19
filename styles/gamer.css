@@ -172,12 +172,7 @@ figcaption {
   cursor: pointer !important;
 } */
 /* Play Section */
-.play-description {
-  color: #534c64;
-  text-align: right;
-  font-size: 18px;
-  font-weight: 400;
-}
+
 .play-banner {
   margin-top: 40px;
   display: flex !important;
@@ -185,24 +180,30 @@ figcaption {
   padding: 30px 30px 0px 200px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center !important;
 }
 
 .play-banner-content {
-  /* border: 2px solid #f948b2; */
+  
   margin-bottom: 80px;
-  margin-left: 100px;
+  margin-left: 0px;
 }
 .play-banner-title {
   text-align: center !important;
 }
 .play-banner-description {
   color: #534c64;
-  text-align: right;
+  text-align: center !important;
   text-overflow: clip;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
+}
+
+.anneyversary-img {
+  margin-left: 80px;
+  
+  padding-left: 90px;
 }
 
 .anneyversary-img img {
@@ -311,6 +312,49 @@ Primarily targetted devices are mobile phone & tablets. */
     margin-top: 10px;
     margin-bottom: 10px;
   }
+  .play-banner {
+    margin-top: 40px;
+    display: flex !important;
+    /* border: #f948b2 2px solid; */
+    padding: 0px !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center !important;
+  }
+  
+  .play-banner-content {
+    
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  #play-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .play-banner-description {
+    color: #534c64;
+    text-align: center !important;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  
+  .anneyversary-img {
+    margin-left: 0px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+  
+  .anneyversary-img img {
+    width: 100%;
+  }
+  .cat-img img {
+    width: 30%;
+    position: relative;
+    bottom: 40px;
+    left: -15px;
+  
 }
 /* For Tablet and medium devices */
 @media screen and (min-width: 577px) and (max-width: 992px) {
