@@ -114,14 +114,14 @@ nav li a {
 
 .banner-content,
 .banner-img {
-  width: 50%;
+  width: 100%;
   padding: 20px;
 }
 
 .banner-img img {
-  width: 90%;
+  width: 100%;
 }
-/* Online Games Sectio */
+/* Online Games Section */
 
 .online-games {
   max-width: 800px;
@@ -171,7 +171,49 @@ figcaption {
   background: black;
   cursor: pointer !important;
 } */
+/* Play Section */
+.play-description {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+}
+.play-banner {
+  margin-top: 40px;
+  display: flex !important;
+  /* border: #f948b2 2px solid; */
+  padding: 30px 30px 0px 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.play-banner-content {
+  /* border: 2px solid #f948b2; */
+  margin-bottom: 80px;
+  margin-left: 100px;
+}
+.play-banner-title {
+  text-align: center !important;
+}
+.play-banner-description {
+  color: #534c64;
+  text-align: right;
+  text-overflow: clip;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.anneyversary-img img {
+  width: 80%;
+}
+.cat-img img {
+  width: 30%;
+  position: relative;
+  bottom: 100px;
+  right: 80px;
+}
 /* Resposive Styles */
 /* Bellow here will go all the responsive styles.
 Primarily targetted devices are mobile phone & tablets. */
